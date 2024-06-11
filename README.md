@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+Guia para Configuração e Execução da Aplicação Mobile de Busca de Livros
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este guia fornecerá instruções detalhadas sobre como configurar e executar a aplicação mobile de busca de livros em seu computador. Certifique-se de seguir cada passo cuidadosamente para garantir uma configuração adequada.
 
-## Get started
+Pré-requisitos:
 
-1. Install dependencies
+Node.js e npm: Certifique-se de ter o Node.js instalado em seu computador, pois ele vem com o npm (gerenciador de pacotes do Node.js). Você pode baixar e instalar o Node.js a partir do site oficial: Node.js.
 
-   ```bash
-   npm install
-   ```
+Expo CLI: Instale o Expo CLI globalmente em seu sistema usando o npm. Execute o seguinte comando no terminal ou prompt de comando:
 
-2. Start the app
+npm install -g expo-cli
 
-   ```bash
-    npx expo start
-   ```
+Git: Você também precisa ter o Git instalado em seu sistema. Você pode baixar e instalar o Git a partir do site oficial: Git.
 
-In the output, you'll find options to open the app in a
+Passo 1: Clonar o Repositório
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ -- Abra o terminal ou prompt de comando.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Navegue até o diretório onde deseja clonar o repositório.
 
-## Get a fresh project
+Execute o seguinte comando para clonar o repositório:
 
-When you're ready, run:
+-- git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/LuizSilva02/SRC-appLivros.git
 
-```bash
-npm run reset-project
-```
+Passo 2: Navegar até o Diretório do Projeto
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Navegue até o diretório recém-clonado usando o terminal ou prompt de comando:
 
-## Learn more
+-- cd nome-do-repositorio
 
-To learn more about developing your project with Expo, look at the following resources:
+Passo 3: Instalar Dependências
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Execute o seguinte comando para instalar as dependências do projeto:
 
-## Join the community
+-- npm install
 
-Join our community of developers creating universal apps.
+Passo 4: Iniciar o Servidor de Desenvolvimento
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Após a instalação das dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+
+-- npm start
+
+Isso iniciará o servidor de desenvolvimento Expo Metro Bundler e abrirá uma página da web com um código QR.
+
+Passo 5: Executar no Dispositivo Móvel
+
+Baixe o aplicativo Expo Go na loja de aplicativos do seu dispositivo iOS ou Android.
+Abra o aplicativo Expo Go.
+
+Use a câmera do seu dispositivo para digitalizar o código QR exibido na página da web do Metro Bundler.
+
+Passo 6: Visualizar a Aplicação
+
+Após digitalizar o código QR, o aplicativo será carregado e você poderá visualizar a aplicação no seu dispositivo móvel.
+
